@@ -1,0 +1,15 @@
+---
+# blog page must be named index.html and in its own folder to support pagination
+# https://jekyllrb.com/docs/pagination/
+layout: page
+title: Teaching
+---
+<section class="list">
+	{% if site.data.teaching.size == 0 %}
+		<p class="text-center">Nothing published yet!</p>
+	{% else %}
+		{% for post in site.data.teaching %}
+			{% include blog-post.html %}
+		{% endfor %}
+	{% endif %}
+</section>
