@@ -2,14 +2,14 @@
     <ul class="list">
         {% if page.title != "Home" %}
             <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
+                <a class="link" href="{{ "/" | relative_url }}">Home</a>
             </li>
         {% endif %}
 
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
+                    <a class="link" href="{{ '/about' | relative_url }}">About</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -23,7 +23,7 @@
         {% if site.blog == true %}
             {% if page.title != "Research" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/research">Research</a>
+                    <a class="link" href="{{ '/research' | relative_url }}">Research</a>
                 </li>
             {% endif %}
         {% endif %}
@@ -31,7 +31,7 @@
         {% if site.projects == true %}
             {% if page.title != "Teaching" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/teaching">Teaching</a>
+                    <a class="link" href="{{ '/teaching' | relative_url }}">Teaching</a>
                 </li>
             {% endif %}
         {% endif %}
