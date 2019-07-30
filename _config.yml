@@ -16,8 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://drive.google.com/open?id=13CBoPDDoyJfl2i4Adn0NSQ-4JqxENaMt
 
-url: https://erlzhang.github.io/indigo_portfolio
-# your url: http://USERNAME.github.io
+# url: http://USERNAME.github.io
 
 permalink: /:title/
 
@@ -42,7 +41,7 @@ twitter: io_low
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-# github: mygithub
+# github_user: mygithub
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
