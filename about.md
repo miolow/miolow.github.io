@@ -2,7 +2,7 @@
 title: About
 layout: page
 ---
-![Profile Image](/assets/images/profile3.JPG)
+![Profile Image](/assets/images/profile3.jpg)
 
 <p>My name is Michelle Io-Low. I am a PhD candidate Stony Brook University's Department of Political Science. Broadly speaking, my research interests centers around public opinion and political behavior. Much of my work centers around understanding how people form opinions related to economic inequality. I am studying how political ideology, political emotions, and political identities affect beliefs about inequality and redistribution, and the relevant political behaviors.</p> 
 
